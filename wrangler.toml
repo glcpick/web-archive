@@ -1,5 +1,4 @@
-name = "archive"
-type = "javascript"
+name = "web-archive"
 
 account_id = "99760fee2f45db1d662092b8e356de5e"  # Replace with the correct account ID
 
