@@ -81,5 +81,3 @@ jobs:
       - name: Deploy
         run: cd dist/service && wrangler pages deploy
 
-env:
-  CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
