@@ -30,11 +30,6 @@ jobs:
       - name: Install wrangler
         run: npm install -g wrangler
 
-      - name: Verify Cloudflare API Token
-        run: |
-          echo "Verifying Cloudflare API Token..."
-          wrangler whoami
-
       - name: Check and Create D1 Database
         run: |
           set -x
