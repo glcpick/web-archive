@@ -1,9 +1,9 @@
-name = "tunl"
-main = "build/worker/shim.mjs"
-compatibility_date = "2024-05-23"
-minify = true
+name = "archive"
+type = "javascript"
 
-account_id = "b9026a15a586c9fbdd6d8ee2947a8cdb"  # Replace with the 
+account_id = "99760fee2f45db1d662092b8e356de5e"  # Replace with the correct account ID
+
+workers_dev = true
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
