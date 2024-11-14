@@ -1,6 +1,6 @@
 name = "web-archive"
 
-account_id = "99760fee2f45db1d662092b8e356de5e"  # Replace with the correct account ID
+account_id = "b9026a15a586c9fbdd6d8ee2947a8cdb"  # Replace with the correct account ID
 
 workers_dev = true
 
