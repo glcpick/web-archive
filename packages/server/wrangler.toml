@@ -2,7 +2,7 @@ name = "web-archive"
 pages_build_output_dir = "../../dist/service"
 compatibility_flags = [ "nodejs_compat_v2" ]
 compatibility_date = "2024-10-21"
-
+account_id = "b9026a15a586c9fbdd6d8ee2947a8cdb" 
 [[r2_buckets]]
 binding = "BUCKET"
 bucket_name = "web-archive"
@@ -10,5 +10,5 @@ bucket_name = "web-archive"
 [[d1_databases]]
 binding = "DB"
 database_name = "web-archive"
-database_id = "ddc7b449-780b-43d9-9920-d7dcfde2407c"
+database_id = "8e8dc3aa-ae1b-4f70-8691-6c6c33fa7ed1"
 migrations_dir = './src/sql/migrations'
